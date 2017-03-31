@@ -11,7 +11,7 @@
 
 
 
-<title>All Controls</title>
+<title>Cluster Information</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -293,13 +293,57 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">All Controls</h1>
+<h1 class="title toc-ignore">Cluster Information</h1>
 
 </div>
 
 
 <p></br></p>
-<p><font color='black'> See <a href="Update_information.html">Update information</a> step in MENU part. </font></p>
+<p><font color='black'></p>
+<h3 id="Background-cluster">
+4.1. Background cluster
+</h3>
+<p>Interactive ‘graph’ of selected cluster, including node and edge information.</p>
+<p>Click-drag to zoom, shift-click to pan, double-click to autoscale. <br> <br> <img src="BCKG.jpg" /> </font></p>
+<p></br></p>
+<h3 id="Nodes">
+4.2. Nodes
+</h3>
+<p><font color='black'> Tabular display of node related information per selected cluster or node ID. <br> <br> <img src="cluNodes.jpg" /></p>
+<ol style="list-style-type: decimal">
+<li>geneID: geneID.</li>
+<li>shortDESCRIPTION: gene description.</li>
+<li>shortNAME: gene short name.</li>
+<li>MapManBIN: MapMan bins to which gene balongs to.</li>
+<li>networkNodeDEGREE: simplified (without loops and multiple reactions) gene degree/valency (the number of edges incident to the vertex) within the complete network.</li>
+<li>superCluNodeDEGREE: gene degree/valency (the number of edges incident to the vertex) within the super cluster. Identical to cluNodeDEGREE if only ‘one round’ of clustering was executed.</li>
+<li>cluNodeDEGREE: gene degree/valency (the number of edges incident to the vertex) within the cluster.</li>
+<li>GENEsuperCluster: super cluster ID.</li>
+<li>GENEcluster: cluster ID. </font></li>
+</ol>
+<p></br></p>
+<h3 id="Edges">
+4.3. Edges
+</h3>
+<p><font color='black'> Tabular display of edge related information per selected cluster. <br> <br> <img src="edges.JPG" /></p>
+<p>All edges within the selected cluster and between selected cluster and any other clusters are shown. Node degree on a network level is used in filtering.</p>
+<ol style="list-style-type: decimal">
+<li>STARTgene: geneID at which the edge begins.</li>
+<li>ENDgene: geneID at which the ends.</li>
+<li>reactionTYPE: type of reaction.</li>
+<li>STARTcluster: no. of the cluster the STARTgene belongs to.</li>
+<li>ENDcluster: no. of the cluster the ENDgene belongs to. These two are identical if both nodes are within the same cluster.</li>
+<li>STARTsuperClu and ENDsuperClu: no. of the super cluster start/end vertex was a memeber of before further split.</li>
+<li>netSTARTnodeDegree: STARTgene degree/valency (the number of edges incident to the vertex) within the complete network.</li>
+<li>netENDnodeDegree: ENDgene degree/valency (the number of edges incident to the vertex) within the complete network.</li>
+<li>superCluSTARTnodeDegree, superCluENDnodeDegree, cluSTARTnodeDegree and cluENDnodeDegree: START/ENDgene degree within the (super) cluster. </font></li>
+</ol>
+<p></br></p>
+<h3 id="subnetwork-MapMan-bins">
+4.4. subnetwork MapMan bins
+</h3>
+<p>Word cloud of node MapMan bins in a selected network per selected cluster. Place a mouse over interesting bin to get the frequency. Find description of a bin in the table below. </br></p>
+<p><img src="BINMapMan.jpg" /> </font></p>
 
 
 

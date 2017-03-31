@@ -1,0 +1,67 @@
+name: "DiNAR, quick help"
+output_dir: "."
+navbar:
+  title: "DiNAR Quick Help"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "MENU"
+      icon: fa-gear
+      menu:
+        - text: 1. Prior knowledge
+          href: Prior_knowledge.html
+        - text: 2. Define experimental data files format
+          href: Define_experimental_data_files_format.html
+        - text: 3. Upload experimental data files
+          href: Upload_experimental_data_files.html
+        - text: 4. Select important columns and thresholds in your data files
+          href: Select_important_columns_and_thresholds_in_your_data_files.html
+        - text: 5. Select experimental files for the analysis and define the order
+          href: Select_experimental_files_for_the_analysis_and_define_the_order.html
+        - text: 6. Create custom palette
+          href: Create_custom_palette.html
+        - text: "   --------  -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- ----"
+        - text: 7. Explore your data
+          href: Explore_your_data.html
+        - text: 8. Running Dynamic visualisation
+          href: Running_Dynamic_visualisation.html
+        - text: 9. Animation speed settings
+          href: Animation_speed_settings.html
+        - text: "   --------  -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- ----"
+        - text: 10. Update information
+          href: Update_information.html
+        - text: 11. Reload button
+          href: Reload_button.html
+        - text: 12. Download example input files
+          href: Download_example_input_files.html
+        - text: 13. Custom network
+          href: Custom_network.html
+    - text: "TABS"
+      icon: fa-gear
+      menu:
+        - text: 1. START
+          href: START.html
+        - text: "   --------  -------- -------- -------- -------- -------- -------- -------- -------"
+        - text: 2. Experimental data
+          href: Experimental_data.html
+        - text: 3. DE palette 
+          href: DE_palette.html
+        - text: 4. Network Information
+          href: Network_Information.html
+        - text: 5. Cluster Information
+          href: Cluster_Information.html
+        - text: 6. Analysis of response in experimental data files
+          href: Analysis_of_response_in_experimental_data_files.html
+        - text: "   --------  -------- -------- -------- -------- -------- -------- -------- -------"
+        - text: 7. All Controls
+          href: All_Controls.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+
+  right:
+    - icon: fa-question fa-lg
+      href: https://raw.githubusercontent.com/NIB-SI/DiNARdata/master/QuickTutorial.webm
+      

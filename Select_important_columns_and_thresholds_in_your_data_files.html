@@ -225,7 +225,7 @@ $(document).ready(function () {
       <a href="Update_information.html">10. Update information</a>
     </li>
     <li>
-      <a href="Refresh_button.html">11. Refresh button</a>
+      <a href="Reload_button.html">11. Reload button</a>
     </li>
     <li>
       <a href="Download_example_input_files.html">12. Download example input files</a>
@@ -245,31 +245,27 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="Experimental_data.html">1. Experimental data</a>
-    </li>
-    <li>
-      <a href="DE_palette.html">2. DE palette</a>
-    </li>
-    <li>
-      <a href="Network_Information.html">3. Network Information</a>
+      <a href="START.html">1. START</a>
     </li>
     <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
     <li>
-      <a href="Edges.html">4. Edges</a>
+      <a href="Experimental_data.html">2. Experimental data</a>
     </li>
     <li>
-      <a href="Nodes.html">5. Nodes</a>
+      <a href="DE_palette.html">3. DE palette</a>
+    </li>
+    <li>
+      <a href="Network_Information.html">4. Network Information</a>
+    </li>
+    <li>
+      <a href="Cluster_Information.html">5. Cluster Information</a>
+    </li>
+    <li>
+      <a href="Analysis_of_response_in_experimental_data_files.html">6. Analysis of response in experimental data files</a>
     </li>
     <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
     <li>
-      <a href="Background_cluster.html">6. Background cluster</a>
-    </li>
-    <li>
-      <a href="Analysis_of_response_in_experimental_data_files.html">7. Analysis of response in experimental data files</a>
-    </li>
-    <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
-    <li>
-      <a href="All_Controls.html">8. All Controls</a>
+      <a href="All_Controls.html">7. All Controls</a>
     </li>
   </ul>
 </li>
@@ -283,7 +279,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="http://www.nib.si/eng/index.php/departments/department-of-biotechnology-and-systems-biology">
+  <a href="https://raw.githubusercontent.com/NIB-SI/DiNARdata/master/QuickTutorial.webm">
     <span class="fa fa-question fa-lg"></span>
      
   </a>
@@ -304,7 +300,7 @@ $(document).ready(function () {
 
 <p></br></p>
 <p><font color='black'> 1. Select column (name) with gene IDs (e.g. geneID).</br> 2. Select column (name) with outcome of statistical test (e.g. adj.P.Val).</br> 3. Type in desired threshold to filter nodes based on the statistical test. (e.g. 0.01)</br>     All the nodes that have value higher of the threshold defined will not be shown in the DiNAR analyses.</br> 4. Select column (name) with measure of response (change in expression value, e.g. logFC).</br> 5. Type in cut-off threshold (absolute value) for minimal desired intensity of response. (e.g. 0.8)</br>     All the nodes that have value in the defined closed interval will not be shown in the DiNAR analyses (e.g. -0.8 &lt; logFC &lt; 0.8).</br>     Other nodes that meet the criteria will be coloured and scaled according to the values in previously defined column.</p>
-<p></br> In the case that some column names contain ID, adj.p.val or logFC, they will be proposed automatically.</p>
+<p></br> In the case that some column names contain ID, adj.p.val or logFC, they will be proposed automatically.<br></p>
 <p>One example of the possible file format is shown below (generated using the Bioconductor <a href="http://www.bioconductor.org/packages/release/bioc/html/limma.html">limma</a> package).<a name="exampleLimma"</a> </font></p>
 <div class="figure">
 <img src="expEG.jpg" />

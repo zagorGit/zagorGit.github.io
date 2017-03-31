@@ -225,7 +225,7 @@ $(document).ready(function () {
       <a href="Update_information.html">10. Update information</a>
     </li>
     <li>
-      <a href="Refresh_button.html">11. Refresh button</a>
+      <a href="Reload_button.html">11. Reload button</a>
     </li>
     <li>
       <a href="Download_example_input_files.html">12. Download example input files</a>
@@ -245,31 +245,27 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="Experimental_data.html">1. Experimental data</a>
-    </li>
-    <li>
-      <a href="DE_palette.html">2. DE palette</a>
-    </li>
-    <li>
-      <a href="Network_Information.html">3. Network Information</a>
+      <a href="START.html">1. START</a>
     </li>
     <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
     <li>
-      <a href="Edges.html">4. Edges</a>
+      <a href="Experimental_data.html">2. Experimental data</a>
     </li>
     <li>
-      <a href="Nodes.html">5. Nodes</a>
+      <a href="DE_palette.html">3. DE palette</a>
+    </li>
+    <li>
+      <a href="Network_Information.html">4. Network Information</a>
+    </li>
+    <li>
+      <a href="Cluster_Information.html">5. Cluster Information</a>
+    </li>
+    <li>
+      <a href="Analysis_of_response_in_experimental_data_files.html">6. Analysis of response in experimental data files</a>
     </li>
     <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
     <li>
-      <a href="Background_cluster.html">6. Background cluster</a>
-    </li>
-    <li>
-      <a href="Analysis_of_response_in_experimental_data_files.html">7. Analysis of response in experimental data files</a>
-    </li>
-    <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
-    <li>
-      <a href="All_Controls.html">8. All Controls</a>
+      <a href="All_Controls.html">7. All Controls</a>
     </li>
   </ul>
 </li>
@@ -283,7 +279,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="http://www.nib.si/eng/index.php/departments/department-of-biotechnology-and-systems-biology">
+  <a href="https://raw.githubusercontent.com/NIB-SI/DiNARdata/master/QuickTutorial.webm">
     <span class="fa fa-question fa-lg"></span>
      
   </a>
@@ -312,14 +308,14 @@ $(document).ready(function () {
 <div id="select-the-cluster-to-be-visualised" class="section level3">
 <h3>7.1 Select the cluster to be visualised</h3>
 <p><font color='black'> In order to explore your data you first need to select an individual cluster, which will be presented in different tabs of the application. Clusters have assigned consecutive numbers so any number between 1 and 48 for Arabidopsis and between 1 and 70 for potato Large Knowledge Network will be accepted (default minima and maxima).</p>
-<p>The information on genes and reactions included is given in TABs: <a href="Nodes.html">Nodes</a>, <a href="Edges.html">Edges</a>, <a href="Network_Information.html">subnetwork MapMan bins</a> and <a href="Background_cluster.html">Background cluster</a>.</p>
-<p>One can also use TAB <a href="Network_Information.html">Clusters</a> or step 7.2 in MENU part to gain insight into specific clusterID. </font></p>
+<p>The information on genes and reactions included is given in TABs: <a href="Cluster_Information.html#Nodes.html">Nodes</a>, <a href="Cluster_Information.html#Edges">Edges</a>, <a href="Cluster_Information.html#subnetwork-MapMan-bins">subnetwork MapMan bins</a> and <a href="Cluster_Information.html#Background-cluster">Background cluster</a>.</p>
+<p>One can also use TAB <a href="Network_Information.html#Clusters">Clusters</a> or step 7.2 in MENU part to gain insight into specific clusterID. </font></p>
 <p></br></p>
 </div>
 <div id="search-for-the-gene-of-interest" class="section level3">
 <h3>7.2 Search for the gene of interest</h3>
 <p>If one would like to visualise the network surrounding a particular gene of interest one can first search for its position in within the network.</p>
-<p>Enter the geneID into the empty window. Associated cluster is automatically selected. Check the column ‘GENEclu’ within TAB <a href="Nodes.html">Nodes</a> to get the information about cluster ID. The cluster related information is shown as described in previous step (7.1).</p>
+<p>Enter the geneID into the empty window. Associated cluster is automatically selected. Check the column ‘GENEclu’ within TAB <a href="Cluster_Information.html#Nodes">Nodes</a> to get the information about cluster ID. The cluster related information is shown as described in previous step (7.1).</p>
 <p><i><b><u>Note</u></b></i>: Cluster selection via geneID has higher priority than Cluster selection via clusterID, hence while proper geneID is written (different from empty string or geneX), selection of cluster by clusterID will not work.</p>
 <p></br></p>
 </div>
@@ -330,7 +326,7 @@ $(document).ready(function () {
 </div>
 <div id="select-the-condition-in-your-dataset-to-be-visualised" class="section level3">
 <h3>7.4 Select the condition in your dataset to be visualised</h3>
-<p>For static visualisation of the selected cluster (see 7.1) one needs to select a particular condition/time-point by entering the order of visualisation number (see the TAB <a href="Experimental_data.html">Experimental data</a> for relation between data files and order of visualisation). One can easily change the selection of the data file using scroll wheel or arrow keys. </font> <br> <br> For clearer idea see screenshots <a href="Analysis_of_response_in_experimental_data_files.html">here</a>.</p>
+<p>For static visualisation of the selected cluster (see 7.1) one needs to select a particular condition/time-point by entering the order of visualisation number (see the TAB <a href="Experimental_data.html">Experimental data</a> for relation between data files and order of visualisation). One can easily change the selection of the data file using scroll wheel or arrow keys. </font> <br> <br> For clearer idea see screenshots <a href="Analysis_of_response_in_experimental_data_files.html#Static-frozen">here</a>.</p>
 </div>
 
 

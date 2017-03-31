@@ -225,7 +225,7 @@ $(document).ready(function () {
       <a href="Update_information.html">10. Update information</a>
     </li>
     <li>
-      <a href="Refresh_button.html">11. Refresh button</a>
+      <a href="Reload_button.html">11. Reload button</a>
     </li>
     <li>
       <a href="Download_example_input_files.html">12. Download example input files</a>
@@ -245,31 +245,27 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="Experimental_data.html">1. Experimental data</a>
-    </li>
-    <li>
-      <a href="DE_palette.html">2. DE palette</a>
-    </li>
-    <li>
-      <a href="Network_Information.html">3. Network Information</a>
+      <a href="START.html">1. START</a>
     </li>
     <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
     <li>
-      <a href="Edges.html">4. Edges</a>
+      <a href="Experimental_data.html">2. Experimental data</a>
     </li>
     <li>
-      <a href="Nodes.html">5. Nodes</a>
+      <a href="DE_palette.html">3. DE palette</a>
+    </li>
+    <li>
+      <a href="Network_Information.html">4. Network Information</a>
+    </li>
+    <li>
+      <a href="Cluster_Information.html">5. Cluster Information</a>
+    </li>
+    <li>
+      <a href="Analysis_of_response_in_experimental_data_files.html">6. Analysis of response in experimental data files</a>
     </li>
     <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
     <li>
-      <a href="Background_cluster.html">6. Background cluster</a>
-    </li>
-    <li>
-      <a href="Analysis_of_response_in_experimental_data_files.html">7. Analysis of response in experimental data files</a>
-    </li>
-    <li class="dropdown-header">   --------  -------- -------- -------- -------- -------- -------- -------- -------</li>
-    <li>
-      <a href="All_Controls.html">8. All Controls</a>
+      <a href="All_Controls.html">7. All Controls</a>
     </li>
   </ul>
 </li>
@@ -283,7 +279,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="http://www.nib.si/eng/index.php/departments/department-of-biotechnology-and-systems-biology">
+  <a href="https://raw.githubusercontent.com/NIB-SI/DiNARdata/master/QuickTutorial.webm">
     <span class="fa fa-question fa-lg"></span>
      
   </a>
@@ -306,19 +302,19 @@ $(document).ready(function () {
 <p><font color='black'> Visualisation of experimental data in background knowledge in particular cluster.</p>
 <p><i>Note: for a bigger image use right click -&gt; View Image -&gt; Zoom</i></p>
 <p></br></p>
-<div id="static-frozen" class="section level3">
-<h3>7.1. Static-frozen</h3>
-<p>Static graph of selected cluster overlaid with experimental values per selected time-point/condition. One can easily browse through different data files (different time-points/conditions) by simply using scroll wheel or arrow keys. For ‘clearer’ view of few nodes in a cluster, select the area of interest and use double-click to zoom in.</p>
-<p>Fastest cluster visualisation option. </br> </br></p>
+<h3 id="Static-frozen">
+7.1. Static-frozen
+</h3>
+<p>Static graph of selected cluster overlaid with experimental values per selected time-point/condition. One can easily browse through different data files (different time-points/conditions) by simply using scroll wheel or arrow keys. For ‘clearer’ view of few nodes in a cluster, select the area of interest and use double-click to zoom in. </br> </br></p>
 <div class="figure">
 <img src="staticFrozen.jpg" />
 
 </div>
 <p></br></p>
 <p></br></p>
-</div>
-<div id="static-interactive" class="section level3">
-<h3>7.2. Static-interactive</h3>
+<h3 id="Static-interactive">
+7.2. Static-interactive
+</h3>
 <p>Static graph of selected cluster overlaid with experimental values per selected time-point/condition. One can easily browse through different data files by simply using scroll wheel or arrow keys.</p>
 <p>In contrast to previous options, this one allows highly interactive network visualization:</p>
 <ul>
@@ -334,9 +330,9 @@ $(document).ready(function () {
 </div>
 <p></br></p>
 <p></br></p>
-</div>
-<div id="dynamic-vis" class="section level3">
-<h3>7.3. Dynamic-vis</h3>
+<h3 id="Dynamic-vis">
+7.3. Dynamic-vis
+</h3>
 <p>Animation of selected cluster overlaid with experimental values for all consecutive conditions/time-points. Start the animation by using the Dynamic Visualisation Control slider.</p>
 <ul>
 <li>Use navigation buttons or arrow keys to move the whole cluster.</li>
@@ -351,12 +347,11 @@ $(document).ready(function () {
 </div>
 <p></br></p>
 <p></br></p>
-</div>
-<div id="dynamic-animator" class="section level3">
-<h3>7.4. Dynamic-animatoR</h3>
+<h3 id="Dynamic-animatoR">
+7.4. Dynamic-animatoR
+</h3>
 <p>Animation of selected cluster overlaid with experimental values for all consecutive conditions/time-points. Start the animation by using the Dynamic Visualisation Control slider. </br> </br></p>
 <p><img src="dynamicAnimator.jpg" /> </font></p>
-</div>
 
 
 
