@@ -1,0 +1,15 @@
+---
+  title: "Update information"
+---
+
+
+
+</br>
+
+<font color='black'>
+You can always upload additional experimental data files or change any setting.
+
+In this case one should go to the TAB named <a href="All_Controls.html">All Controls</a>.
+
+While positioned in this TAB, all MENU steps are shown.
+</font>

@@ -1,0 +1,14 @@
+---
+  title: "Animation speed settings"
+---
+
+
+
+</br>
+
+<font color='black'>
+This option is used to control the animation speed.<br>
+Depending on the dataset, one might want to change the default setting by changing the interval between each selectable value on the slider (i.e. greater number means faster animation).
+
+For clearer idea see screenshot <a href="Analysis_of_response_in_experimental_data_files.html#Dynamic-animatoR">here</a>.
+</font>

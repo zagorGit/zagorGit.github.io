@@ -1,0 +1,15 @@
+---
+  title: "Running Dynamic visualisation"
+---
+
+
+</br>
+
+<font color='black'>
+The slider controlling the dynamic visualisation of your dataset in background knowledge is manipulated here.<br>
+You Run visualisation by pressing the arrow in the bottom right corner of the slider.
+
+The animation can be paused, restarted or one can jump to the specific condition/time-point.
+
+For clearer idea see screenshot <a href="Analysis_of_response_in_experimental_data_files.html#Dynamic-vis">here</a>.
+</font>

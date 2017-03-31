@@ -1,0 +1,76 @@
+---
+title: "Analysis of response in experimental data files"
+---
+
+
+
+</br>
+
+<font color='black'>
+Visualisation of experimental data in background knowledge in particular cluster.
+
+<i>Note: for a bigger image use right click -> View Image -> Zoom</i>
+
+</br>
+
+<h3 id="Static-frozen">7.1. Static-frozen</h3>
+
+Static graph of selected cluster overlaid with experimental values per selected time-point/condition. One can easily browse through different data files (different time-points/conditions) by simply using scroll wheel or arrow keys. For 'clearer' view of few nodes in a cluster, select the area of interest and use double-click to zoom in.
+</br>
+</br>
+
+![](staticFrozen.jpg)
+
+</br>
+
+</br>
+
+<h3 id="Static-interactive">7.2. Static-interactive</h3>
+
+Static graph of selected cluster overlaid with experimental values per selected time-point/condition. One can easily browse through different data files by simply using scroll wheel or arrow keys.
+
+In contrast to previous options, this one allows highly interactive network visualization:
+
+* Use navigation buttons or arrow keys to move the whole cluster.
+* Zoom in/out using mouse or +/- buttons.
+* Overlay mouse pointer over nodes or edges to get some aditional information.
+* Drag nodes and edges to wanted position/coordinates using mouse.
+* Select node and its neighbors by label using >>Select by id option<<. Keyboard entry is also enabled, meaning one can start typing wanted label in the 'green window' and select wanted one by hitting the Enter key. Node label is defined as combination of a short name (if available) and its expression value (or similar) in discrete time-point/condition.
+</br>
+</br>
+
+![](staticVis.jpg)
+
+</br>
+
+</br>
+
+<h3 id="Dynamic-vis">7.3. Dynamic-vis</h3>
+
+
+Animation of selected cluster overlaid with experimental values for all consecutive conditions/time-points. Start the animation by using the Dynamic Visualisation Control slider.
+
+* Use navigation buttons or arrow keys to move the whole cluster.
+* Zoom in/out using mouse or +/- buttons.
+* Overlay mouse pointer over nodes or edges to get some aditional information.
+* Drag nodes and edges to wanted position/coordinates using mouse.
+* Node label is visible in zoom mode and it is defined as combination of a short name (if available) and its expression value (or similar). Node expression value (or similar) between discrete time-points/conditions is calculated using homotopy.
+</br>
+</br>
+
+![](dynamicVis.jpg)
+
+</br>
+
+</br>
+
+<h3 id="Dynamic-animatoR">7.4. Dynamic-animatoR</h3>
+
+Animation of selected cluster overlaid with experimental values for all consecutive conditions/time-points. Start the animation by using the Dynamic Visualisation Control slider.
+</br>
+</br>
+
+
+![](dynamicAnimator.jpg)
+</font>
+

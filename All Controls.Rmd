@@ -1,0 +1,11 @@
+---
+title: "All Controls"
+---
+
+
+
+</br>
+
+<font color='black'>
+See <a href="Update_information.html">Update information</a> step in MENU part.
+</font>

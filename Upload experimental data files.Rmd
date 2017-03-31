@@ -1,0 +1,15 @@
+---
+  title: "Upload experimental data files"
+---
+
+
+</br>
+
+<font color='black'> 
+Files can be uploaded in multiple steps, one by one or all at once.</br>
+Do not worry about order of upload and potential duplicate entries.</br>
+This will be taken care of in the next steps.
+</font>
+</br>
+</br>
+![](filesFormat.jpg) 

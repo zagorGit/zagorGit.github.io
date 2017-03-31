@@ -1,0 +1,19 @@
+---
+  title: "Download example input files"
+---
+
+
+
+</br>
+
+<font color='black'>
+
+Click on the link in menu to download: 
+
+* Ath <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE56094">GSE56094</a> experimental data (P. syringae pv tomato DC3000 wildtype vs. mock),
+
+* SoTub <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58593">GSE58593</a> experimental data or 
+
+* Custom Network example.
+
+</font>

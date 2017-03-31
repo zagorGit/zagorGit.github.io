@@ -1,0 +1,40 @@
+---
+title: "Network Information"
+---
+
+
+
+</br>
+
+<font color='black'>
+Here the information on large knowledge network selected for the analysis is given.
+
+</br>
+
+<h3 id="Clusters">3.1. Clusters</h3>
+
+* Histogram: number of nodes per cluster in a selected network and
+* Table: nodes (geneID and short name) per cluster in a selected network
+</br>
+
+![](NetClusters.jpg)
+
+</br>
+
+<h3 id="Node-Degree">3.2. Node Degree</h3>
+
+Node degree distribution in a selected network.
+</br>
+
+![](nodedegree.jpg)
+
+</br>
+
+<h3 id="Reactions-types">3.3. Reactions types</h3>
+
+Reaction types distribution in a selected network.
+</br>
+
+![](reactions.jpg)
+
+</font>

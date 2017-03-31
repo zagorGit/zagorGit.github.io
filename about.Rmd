@@ -1,0 +1,21 @@
+---
+title: ""
+---
+
+
+
+</br>
+</br>
+
+Examine your omics datasets in the prior knowledge context.
+
+<https://github.com/NIB-SI/DiNAR>
+
+<https://nib-si.shinyapps.io/DiNAR>
+
+Follow the steps as indicated in interactive menu.
+
+For the help overlay the mouse over the info button or go to Quick help section.
+
+Large knowledge networks of <i><b>Arabidopsis thaliana</b></i> and <i><b>Solanum tuberosum</b></i>  are provided. 
+

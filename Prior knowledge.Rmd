@@ -1,0 +1,19 @@
+---
+  title: "Prior knowledge"
+---
+
+
+</br>
+<font color='black'>You can choose between:</font>
+
++ <font color='black'><i><b> Arabidopsis thaliana</b></i> Large Knowledge Network (LKN),</font>
+
++ <font color='black'><i><b> Solanum tuberosum</b></i> LKN or</font>
+
++ <font color='black'> <b>Custom network</b> (pre-clustered with assigned vertex coordinates; see detailed info <a href="Custom_network.html">here</a>).</font>
+
+</br>
+
+For a demonstration select <b>QuickAppTest(Ath123)</b> - a three cluster subnetwork of <i>A. thaliana</i> LKN.</br>
+In addition, three conditions (partial experimental files from GSE56094 data set) are automatically uploaded.
+</font>

@@ -1,0 +1,26 @@
+---
+  title: "Create custom palette"
+---
+
+
+
+</br>
+
+<font color='black'> 
+If you are not satisfied with the default configuration, you need to choose three colours from which custom palette will be created.
+
+* Select lower boundary colour (e.g. lowest logFC)
+* Select intermediate colour
+* Select upper boundary colour (e.g. highest logFC)
+
+Also selected upper/lower boundary palette threshold - to define the extreme value palette cut-off, 
+meaning that the nodes that have higher/lower values than the boundary will be coloured in higher/lower boundary colour.
+
+</br>
+
+Generated palette can be viewed in the TAB <a href="DE_palette.html">DE palette</a>.
+
+<div class="ui-block-a">Click on the button <button><b><font color='green'>Proceed</font></b></button> when you are satisfied with your selection.</div>
+
+Now you can examine your experimental data in the context of a prior knowledge network.
+</font>

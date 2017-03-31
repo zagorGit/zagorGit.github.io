@@ -1,0 +1,27 @@
+---
+  title: "Define experimental data files format"
+---
+
+
+</br>
+
+<font color='black'> 
+Experimental data file should contain at least: 
+
+i) column with gene IDs, 
+
+ii) column with outcome of statistical test and 
+
+iii) column with measure of response (see <a href="Select_important_columns_and_thresholds_in_your_data_files.html#example file">example file</a>).
+
+</br>
+
+<div class="ui-block-a"><form><input type="checkbox" name="" value=""</form> Click on the box to choose whether your experimental files contain header.</div>
+</br>
+Click on the button to choose what type of separator/delimiter between columns was used:<br> <!-- comma, tabulator or semicolon. -->
+ <form>
+  <input type="radio" name="separator" value="comma"> comma<br>
+  <input type="radio" name="separator" value="semicolon"> semicolon<br>
+  <input type="radio" name="separator" value="tabulator" checked> tabulator
+ </form> 
+</font>

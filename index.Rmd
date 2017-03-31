@@ -1,0 +1,13 @@
+---
+title: ""
+---
+
+</br>
+
+<img src="clu.jpg" style="width: 512px;"/>
+
+<h1><i><b>Di</b>fferential <b>N</b>etwork <b>A</b>nalysis in <span style="color: #0000CC"><b>R</b></span></i><h1>
+
+<video src = "dn.webm", type = "video/mp4", autoplay = "autoplay", width = 500, loop = TRUE</video>
+
+</br>

@@ -1,0 +1,12 @@
+---
+  title: "START"
+---
+  
+  
+  
+</br>
+  
+<font color='black'>
+Follow the steps as indicated in interactive menu.<br>
+If you will try to skip some steps, you will end up in this TAB.
+</font>

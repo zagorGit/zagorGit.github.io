@@ -1,0 +1,16 @@
+---
+title: "DE palette"
+---
+
+
+
+</br>
+
+<font color='black'>
+Pie chart of custom palette currently in use by DinaR.
+
+Example palette with the boundary of |2.5| is shown below.
+<br>
+<br>
+![](mypalette.jpg) 
+</font>

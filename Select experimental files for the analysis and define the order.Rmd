@@ -1,0 +1,19 @@
+---
+  title: "Select experimental files for the analysis and define the order"
+---
+
+
+</br>
+
+<font color='black'> 
+Select files you wish to use in further analyses and define the order that will be used in animation.
+
+
+Example:
+</font>
+</br>
+
+![](filesSelectionEG.jpg)
+</br>
+</br>
+See also TAB <a href="Experimental_data.html">Experimental data</a>.
