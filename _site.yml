@@ -4,9 +4,9 @@ navbar:
   title: "DiNAR Quick Help"
   type: inverse
   left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
+    #- text: "Home"
+    #  icon: fa-home
+    #  href: index.html
     - text: "MENU"
       icon: fa-gear
       menu:
