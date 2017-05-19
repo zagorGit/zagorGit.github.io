@@ -8,4 +8,6 @@ title: "All Controls"
 
 <font color='black'>
 See <a href="Update_information.html">Update information</a> step in MENU part.
+
+<div class="ui-block-a">Click on the button <button><b><font color='white'>Download log</font></b></button> to download log file.</div>
 </font>

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: ''
 ---
 
 
@@ -19,3 +19,12 @@ For the help overlay the mouse over the info button or go to Quick help section.
 
 Large knowledge networks of <i><b>Arabidopsis thaliana</b></i> and <i><b>Solanum tuberosum</b></i>  are provided. 
 
+<hr>
+
+More information about Ath GSE56094 experimental data analysis and LKN clustering is available at:
+
+<https://github.com/NIB-SI/GEOmicroarrayDataAnalysis>
+
+and
+
+<https://github.com/NIB-SI/LKNclusteringCN>

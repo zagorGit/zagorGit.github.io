@@ -36,6 +36,23 @@ In contrast to previous options, this one allows highly interactive network visu
 * Overlay mouse pointer over nodes or edges to get some aditional information.
 * Drag nodes and edges to wanted position/coordinates using mouse.
 * Select node and its neighbors by label using >>Select by id option<<. Keyboard entry is also enabled, meaning one can start typing wanted label in the 'green window' and select wanted one by hitting the Enter key. Node label is defined as combination of a short name (if available) and its expression value (or similar) in discrete time-point/condition.
+
+
+| reaction types   | arrow position       | line type            |
+| ---------------- | -------------------- | -------------------- |
+| 'binding' | from;middle;to | dashed |
+| 'unk_TF' | none | dashed |
+| 'activation' | middle;to | full |
+| 'act_TF' | middle;to | full |
+| 'inhibition' | none | full |
+| 'synthesis' | none | dashed |
+| 'inh_TF' | none | full |
+| 'inh_ncRNA' | none | full |
+| '-' | none | dashed |
+| <i>>something else<</i> | if the word contains "act": middle;to, else: none | if the word contains "act" or "inh": full, else: dashed |
+
+<div class="ui-block-a">Click on the button <button><b><font color='white'>Download .html</font></b></button> to save visNetwork object to a HTML file.</div>
+
 </br>
 </br>
 
@@ -55,7 +72,21 @@ Animation of selected cluster overlaid with experimental values for all consecut
 * Overlay mouse pointer over nodes or edges to get some aditional information.
 * Drag nodes and edges to wanted position/coordinates using mouse.
 * Node label is visible in zoom mode and it is defined as combination of a short name (if available) and its expression value (or similar). Node expression value (or similar) between discrete time-points/conditions is calculated using homotopy.
-</br>
+
+
+| reaction types   | arrow position       | line type            |
+| ---------------- | -------------------- | -------------------- |
+| 'binding' | from;middle;to | dashed |
+| 'unk_TF' | none | dashed |
+| 'activation' | middle;to | full |
+| 'act_TF' | middle;to | full |
+| 'inhibition' | none | full |
+| 'synthesis' | none | dashed |
+| 'inh_TF' | none | full |
+| 'inh_ncRNA' | none | full |
+| '-' | none | dashed |
+| <i>>something else<</i> | if the word contains "act": middle;to, else: none | if the word contains "act" or "inh": full, else: dashed |
+
 </br>
 
 ![](dynamicVis.jpg)
@@ -67,6 +98,11 @@ Animation of selected cluster overlaid with experimental values for all consecut
 <h3 id="Dynamic-animatoR">7.4. Dynamic-animatoR</h3>
 
 Animation of selected cluster overlaid with experimental values for all consecutive conditions/time-points. Start the animation by using the Dynamic Visualisation Control slider.
+
+<div class="ui-block-a">Click on the button <button><b><font color='white'>Create dynamic .html</font></b></button> to render out a web-based animation of a networkDynamic object using ndtv-d3 player app. Generated file can be downloaded as a HTML file.</div>
+</br>
+<div class="ui-block-a">Click on the button <button><b><font color='white'>Download static image</font></b></button> to create static image of the cluster in the preferred condition/time-point. Generated file is downloaded as a PDF or PNG file (dependent upon which option is selected).</div>
+
 </br>
 </br>
 
